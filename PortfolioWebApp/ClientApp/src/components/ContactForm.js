@@ -10,6 +10,7 @@ const ContactForm = () => {
             type="text"
             placeholder="Name"
             className="form-control"
+            required
           />
         </div>
         <div className="form-group">
@@ -17,6 +18,7 @@ const ContactForm = () => {
             type="text"
             placeholder="Subject"
             className="form-control"
+            required
           />
         </div>
         <div className="form-group">
@@ -25,6 +27,7 @@ const ContactForm = () => {
             placeholder="Message"
             rows={5}
             className="form-control"
+            required
           />
         </div>
         <button type="submit" className="btn btn-primary">Send</button>
