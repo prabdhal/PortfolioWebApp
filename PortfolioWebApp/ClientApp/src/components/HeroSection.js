@@ -2,7 +2,7 @@
 
 const HeroSection = () => {
   return (
-    <div className="container m-5">
+    <div>
 
     </div>
   );

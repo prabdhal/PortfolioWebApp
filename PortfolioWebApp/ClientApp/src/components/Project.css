@@ -1,0 +1,26 @@
+﻿
+.project-card-container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  margin: 50px 0;
+  border: 1px solid black;
+}
+
+.project-image-container {
+  width: 33%;
+}
+
+.project-image-container img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.project-details-container {
+  width: 66%;
+}
+
+.project-button-container {
+}
