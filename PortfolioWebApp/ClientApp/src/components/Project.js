@@ -1,13 +1,14 @@
 ﻿import React from 'react';
+import { Container } from 'reactstrap';
 
 import ProjectCards from './ProjectCards';
 
 const Project = () => {
   return (
-    <>
-      <h2>Check out my work</h2>
+    <Container>
+      <h2 style={{ paddingTop: "100px" }}>Check out my work</h2>
       <ProjectCards />
-    </>
+    </Container>
   );
 }
 

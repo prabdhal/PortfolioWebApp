@@ -1,0 +1,43 @@
+﻿
+
+header.master-head {
+  position: relative;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+header.master-head .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+.post-heading {
+  padding: 200px 0;
+  color: white;
+}
+
+.post-heading h1 {
+  font-size: 55px;
+}
+
+  .post-heading span {
+    font-size: 30px;
+  }
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
+
+  header.masthead .post-heading .subheading {
+    font-size: 30px;
+  }
+}
