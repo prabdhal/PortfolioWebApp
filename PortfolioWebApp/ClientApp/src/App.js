@@ -4,6 +4,7 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import TowerDefenceGame from './components/TowerDefenceGame';
 
 import './custom.css'
 
@@ -16,6 +17,7 @@ export default class App extends Component {
         <Route exact path='/' component={Home} />
         <Route path='/projects' component={Project} />
         <Route path='/contact' component={Contact} />
+        <Route path='/tower-defence-3d-enemy-wave' component={TowerDefenceGame} />
       </Layout>
     );
   }

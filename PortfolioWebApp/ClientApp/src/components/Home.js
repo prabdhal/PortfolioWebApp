@@ -14,6 +14,10 @@ export class Home extends Component {
           alt={"hero section image"}
         />
         <Container>
+          <h2>Projects</h2>
+        </Container>
+        <Container>
+          <h2>Contact</h2>
         </Container>
       </>
     );

@@ -11,11 +11,12 @@
 
 .project-image-container {
   width: 33%;
+  max-width: 300px;
+  margin-right: 15px;
 }
 
 .project-image-container img {
   width: 100%;
-  max-width: 300px;
   transition: all 300ms ease-out;
 }
 
@@ -29,8 +30,29 @@
 }
 
 .project-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 summary:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 995px) {
+  .project-card-container {
+    flex-direction: column-reverse;
+    padding: 5px;
+  }
+  .project-image-container {
+    width: 100%;
+    max-width: unset;
+  }
+  .project-details-container {
+    width: 100%;
+  }
+  .project-button-container {
+    margin: 10px;
+    justify-content: space-evenly;
+  }
 }
