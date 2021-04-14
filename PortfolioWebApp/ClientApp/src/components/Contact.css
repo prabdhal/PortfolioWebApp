@@ -1,0 +1,55 @@
+﻿
+:root {
+  --primaryColor: #4b6cc1;
+  --secondaryColor: #5e5e5e;
+  --darkColor: #191919;
+  --lightColor: #919191;
+  --xlFont: 55px;
+  --largeFont: 30px;
+  --medFont: 20px;
+  --regFont: 12px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.contact-col ul {
+  margin-top: 30px;
+}
+
+.contact-col ul li {
+  list-style: none;
+  margin: 3px;
+}
+
+.contact-col ul li a {
+  color: black;
+}
+
+.contact-col ul li a:hover {
+  color: black;
+}
+
+.contact-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 770px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-col {
+    width: 100%;
+  }
+  
+
+  .contact-col ul {
+    margin-top: 0px;
+  }
+}

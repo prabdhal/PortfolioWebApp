@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavMenu } from './NavMenu';
+import Navbar from './Navbar';
 import Footer from './Footer';
 
 export class Layout extends Component {
@@ -8,7 +8,7 @@ export class Layout extends Component {
   render () {
     return (
       <div>
-        <NavMenu />
+        <Navbar />
         <>
           {this.props.children}
         </>

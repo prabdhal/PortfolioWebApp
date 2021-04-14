@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 
 import HeroSection from './HeroSection';
+import About from './About';
+import ProjectCards from './ProjectCards';
+import Contact from './Contact';
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -13,11 +16,17 @@ export class Home extends Component {
           src={"./images/hero-section.jpg"}
           alt={"hero section image"}
         />
-        <Container>
-          <h2>Projects</h2>
-        </Container>
-        <Container>
-          <h2>Contact</h2>
+        <div className="my-5" id="aboutMe">
+          <About
+            src={"./images/about-me-image.png"}
+            alt={"Image of Prabdeep Dhaliwal"}
+          />
+        </div>
+        <Container className="my-5" id="projects">
+          <h2 className="section-header">My Work</h2>
+          <ProjectCards
+            detailView={false}
+          />
         </Container>
       </>
     );

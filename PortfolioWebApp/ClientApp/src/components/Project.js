@@ -6,8 +6,14 @@ import ProjectCards from './ProjectCards';
 const Project = () => {
   return (
     <Container>
-      <h2 style={{ paddingTop: "100px" }}>Check out my work</h2>
-      <ProjectCards />
+      <h2 className="section-header">ASP.NET Projects</h2>
+      <ProjectCards
+        ProjectDisplay={"PROJECTDETAILS"}
+      />
+      <h2 className="section-header">Node.js Projects</h2>
+      <ProjectCards
+        ProjectDisplay={"NODEPROJECTDETAILS"}
+      />
     </Container>
   );
 }

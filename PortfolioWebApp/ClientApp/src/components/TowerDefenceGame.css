@@ -1,4 +1,15 @@
 ﻿
+:root {
+  --primaryColor: #4b6cc1;
+  --secondaryColor: #5e5e5e;
+  --darkColor: #191919;
+  --lightColor: #919191;
+  --xlFont: 55px;
+  --largeFont: 30px;
+  --medFont: 20px;
+  --regFont: 12px;
+}
+
 .dark-mode {
   position: fixed;
   top: 0;

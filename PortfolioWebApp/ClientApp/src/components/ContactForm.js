@@ -3,8 +3,8 @@
 const ContactForm = () => {
   return (
     <>
-      <form className="mx-auto" style={{ maxWidth: "700px" }}>
-      <h3>Message me</h3>
+      <form style={{ maxWidth: "700px" }}>
+        <h4>Leave A Message</h4>
         <div className="form-group">
           <input
             type="text"

@@ -1,4 +1,16 @@
-﻿a.navbar-brand {
+﻿
+:root {
+  --primaryColor: #4b6cc1;
+  --secondaryColor: #5e5e5e;
+  --darkColor: #191919;
+  --lightColor: #919191;
+  --xlFont: 55px;
+  --largeFont: 30px;
+  --medFont: 20px;
+  --regFont: 12px;
+}
+
+a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
@@ -22,4 +34,11 @@ html {
   background-color: black;
   opacity: 0.9;
   z-index: 10;
+}
+
+.nav-link {
+  color: var(--primaryColor) !important;
+}
+.nav-link:hover {
+  color: var(--primaryColor) !important;
 }

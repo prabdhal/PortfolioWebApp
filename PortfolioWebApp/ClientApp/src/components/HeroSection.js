@@ -4,16 +4,14 @@ import './Home.css'
 
 const HeroSection = (props) => {
   return (
-    <header className="master-head" style={{ backgroundImage: `url(${props.src})` }}>
-      <div className="overlay"></div>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8 col-md-10 mx-auto">
-            <div className="post-heading">
-              <h1 className="text-break">Prabdeep Dhaliwal</h1>
-              <span className="subheading">Full Stack Web Developer | Unity Game Developer</span>
-              <a className="btn btn-primary" href="/contact">Contact</a>
-            </div>
+    <header>
+      <div className="hero-container">
+        <div className="col-lg-8 col-md-10 mx-auto">
+          <div className="post-heading">
+            <h1 className="subheading">Hello, my name is</h1>
+            <h1 className="text-break">Prabdeep Dhaliwal</h1>
+            <div className="subheading">Full Stack Web Developer</div>
+            <a className="hero-button" href="/projects">View My Work</a>
           </div>
         </div>
       </div>

@@ -1,22 +1,18 @@
 ﻿
-
-header.master-head {
-  position: relative;
-  background: no-repeat center center;
-  background-color: #868e96;
-  background-attachment: scroll;
-  background-size: cover;
-  margin-bottom: 50px;
+:root {
+  --primaryColor: #4b6cc1;
+  --secondaryColor: #5e5e5e;
+  --darkColor: #191919;
+  --lightColor: #919191;
+  --xlFont: 55px;
+  --largeFont: 30px;
+  --medFont: 20px;
+  --regFont: 12px;
 }
 
-header.master-head .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #212529;
-  opacity: 0.5;
+.hero-container {
+  background-color: var(--darkColor);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 93%);
 }
 
 .post-heading {
@@ -24,20 +20,37 @@ header.master-head .overlay {
   color: white;
 }
 
-.post-heading h1 {
-  font-size: 55px;
+.post-heading h1:last-of-type {
+  font-size: 70px;
+  color: var(--primaryColor);
 }
 
-  .post-heading span {
-    font-size: 30px;
-  }
+.post-heading div {
+  font-size: 35px;
+}
+
+.subheading:last-of-type {
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  font-size: 20px;
+  padding: 10px;
+  border: 3px solid var(--primaryColor);
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  transition: all 200ms ease-in;
+}
+
+.hero-button:hover {
+  text-decoration: none;
+  background-color: var(--primaryColor);
+  color: white;
+  border: 3px solid var(--primaryColor);
+  transform: scale(1.1);
+}
 
 @media only screen and (min-width: 768px) {
-  header.masthead .post-heading h1 {
-    font-size: 55px;
-  }
 
-  header.masthead .post-heading .subheading {
-    font-size: 30px;
-  }
 }
