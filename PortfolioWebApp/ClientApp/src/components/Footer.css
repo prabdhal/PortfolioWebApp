@@ -15,12 +15,13 @@
   display: flex;
   flex-direction: row;
   padding: 150px 0;
-  background-color: #333333;
+  background-color: #232323;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
 }
 
 .top-footer h4 {
   color: white;
+  font-size: var(--largeFont);
 }
 
 .contact-information ul li {
@@ -60,10 +61,25 @@ footer-col div.footer-links {
 
 .social-icons-container {
   width: 100%;
-  max-width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.social-icons-container div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  color: white;
+}
+
+.social-icons-container div a {
+  width: 20px;
+}
+
+.social-icons-container div div {
+  color: #b2b2b2;
+  font-size: 15px;
+  margin: auto 30px;
 }
 
 .footer-col h5 {
@@ -72,7 +88,6 @@ footer-col div.footer-links {
   color: white;
 }
 .footer-col a {
-  font-size: var(--medFont);
   color: black;
   margin: 1px 0;
   color: white;
@@ -81,3 +96,52 @@ footer-col div.footer-links {
 .footer-col a:hover {
   text-decoration: none;
 }
+
+.fab, .fas {
+  color: var(--primaryColor);
+}
+.footer-button {
+  font-size: 20px;
+  padding: 10px;
+  border: 3px solid var(--primaryColor);
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  transition: all 200ms ease-in;
+}
+
+.footer-button:hover {
+  text-decoration: none;
+  background-color: var(--primaryColor);
+  color: white;
+  border: 3px solid var(--primaryColor);
+  transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 500px) {
+  .top-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .social-icons-container {
+    margin-top: 40px;
+  }
+
+  .social-icons-container div {
+    margin: auto;
+  }
+
+  .top-footer h4 {
+    font-size: var(--medFont);
+  }
+
+  .footer-button {
+    font-size: 15px;
+  }
+} 

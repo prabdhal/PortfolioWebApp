@@ -15,7 +15,7 @@ const Contact = () => {
         showButton={false}
       />
       <Container className="section-container">
-        <h2 className="section-header" id="contact">Contact Me</h2>
+        <h2 className="section-header" id="contact">Leave A Message</h2>
         <ContactForm />
       </Container>
     </>

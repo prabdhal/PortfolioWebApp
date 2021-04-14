@@ -26,6 +26,7 @@ h2.section-header {
   font-size: var(--largeFont);
   color: var(--secondaryColor);
   padding-bottom: 15px;
+  padding-left: 10px; 
   border-bottom: 4px solid #f6f6f6;
 }
 
@@ -84,6 +85,7 @@ h2.section-header {
   }
 
   .about-img-col {
+    width: 300px;
     clip-path: ellipse(37% 46% at 48% 46%);
   }
 }

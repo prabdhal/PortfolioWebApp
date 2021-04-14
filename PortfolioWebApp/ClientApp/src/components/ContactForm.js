@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <>
       <form className="contact-form">
-        <h4>Leave A Message</h4>
+        <br />
         <div className="form-group">
           <input
             type="text"

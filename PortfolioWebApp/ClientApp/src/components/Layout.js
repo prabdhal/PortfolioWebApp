@@ -9,9 +9,9 @@ export class Layout extends Component {
     return (
       <div>
         <Navbar />
-        <>
+        <div className="body">
           {this.props.children}
-        </>
+        </div>
         <Footer />
       </div>
     );
