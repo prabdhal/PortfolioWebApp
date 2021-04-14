@@ -55,7 +55,7 @@ nav ul li {
   transition: all 300ms ease-in;
 }
 
-.underline:hover {
+.show {
   width: 50px;
 }
 
