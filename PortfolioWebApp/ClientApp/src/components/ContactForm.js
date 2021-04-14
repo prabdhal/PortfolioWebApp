@@ -3,7 +3,7 @@
 const ContactForm = () => {
   return (
     <>
-      <form style={{ maxWidth: "700px" }}>
+      <form className="contact-form">
         <h4>Leave A Message</h4>
         <div className="form-group">
           <input
@@ -15,8 +15,8 @@ const ContactForm = () => {
         </div>
         <div className="form-group">
           <input
-            type="text"
-            placeholder="Subject"
+            type="email"
+            placeholder="Email"
             className="form-control"
             required
           />
@@ -30,7 +30,7 @@ const ContactForm = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">Send</button>
+        <button type="submit" className="project-button">Send</button>
       </form>
     </>
   );

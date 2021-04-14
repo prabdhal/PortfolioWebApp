@@ -29,10 +29,10 @@ h2.section-header {
   border-bottom: 4px solid #f6f6f6;
 }
 
-  .about-detail-col hr {
-    border: 2px solid var(--lightColor);
-    background-color: var(--lightColor);
-  }
+.about-detail-col hr {
+  border: 2px solid var(--lightColor);
+  background-color: var(--lightColor);
+}
 
 .about-detail-col p {
   margin-top: 30px;
@@ -40,11 +40,18 @@ h2.section-header {
 }
 
 .about-img-col {
+  width: 100%;
+  display: flex;
   width: 40%;
+  align-items: center;
+  background-color: var(--primaryColor);
+  clip-path: ellipse(35% 41% at 50% 46%);
 }
 
   .about-img-col img {
     max-width: 200px;
+    width: 100%;
+    margin: auto;
   }
 
 
@@ -56,13 +63,13 @@ h2.section-header {
 
 @media only screen and (max-width: 1210px) {
   .about-container {
-    padding: 0 120px;
+    padding: 0 80px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   .about-container {
-    padding: 0 50px;
+    padding: 0 20px;
   }
 }
 
@@ -74,5 +81,9 @@ h2.section-header {
 
   .about-detail-col {
     width: 100%;
+  }
+
+  .about-img-col {
+    clip-path: ellipse(37% 46% at 48% 46%);
   }
 }

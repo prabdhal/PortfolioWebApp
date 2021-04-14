@@ -8,7 +8,7 @@ const ProjectCardItem = (props) => {
       <img className="project-image" src={props.src} alt={props.alt} />
       <div className="project-button-container">
         <a
-          className="btn btn-primary mr-1"
+          className="project-button mr-1"
           href={props.projectLink}
           target="_blank"
           rel="noopener noreferrer"
@@ -16,7 +16,7 @@ const ProjectCardItem = (props) => {
           View Project
         </a>
         <a
-          className="btn btn-secondary ml-1"
+          className="project-button mr-1"
           href={props.githubLink}
           target="_blank"
           rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const ProjectCardItem = (props) => {
           View GitHub
         </a>
         <a
-          className="btn btn-success ml-1"
+          className="project-button-alt mr-1"
           href={`/projects#${props.id}`}
         >
           More Details

@@ -1,20 +1,30 @@
 ﻿import React from 'react';
 import { Container } from 'reactstrap';
 
+import HeroSection from './HeroSection';
 import ProjectCards from './ProjectCards';
 
 const Project = () => {
   return (
-    <Container>
-      <h2 className="section-header">ASP.NET Projects</h2>
-      <ProjectCards
-        ProjectDisplay={"PROJECTDETAILS"}
+    <>
+      <HeroSection
+        heading={"Projects"}
+        subheadingTwo={"These are some of my projects using Node.js and more recently, ASP.NET"}
+        showButton={false}
       />
-      <h2 className="section-header">Node.js Projects</h2>
-      <ProjectCards
-        ProjectDisplay={"NODEPROJECTDETAILS"}
-      />
-    </Container>
+      <Container className="section-container">
+        <h2 className="section-header">ASP.NET Projects</h2>
+        <ProjectCards
+          ProjectDisplay={"PROJECTDETAILS"}
+        />
+      </Container>
+      <Container className="section-container">
+        <h2 className="section-header">Node.js Projects</h2>
+        <ProjectCards
+          ProjectDisplay={"NODEPROJECTDETAILS"}
+        />
+      </Container>
+    </>
   );
 }
 

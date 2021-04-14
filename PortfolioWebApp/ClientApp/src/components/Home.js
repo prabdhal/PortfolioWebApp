@@ -15,14 +15,19 @@ export class Home extends Component {
         <HeroSection
           src={"./images/hero-section.jpg"}
           alt={"hero section image"}
+          subheadingOne={"Hello, my name is"}
+          heading={"Prabdeep Dhaliwal"}
+          subheadingTwo={"Full Stack Web Developer"}
+          showButton={true}
+          buttonText={"View My Work"}
         />
-        <div className="my-5" id="aboutMe">
+        <div className="section-container" id="aboutMe">
           <About
             src={"./images/about-me-image.png"}
             alt={"Image of Prabdeep Dhaliwal"}
           />
         </div>
-        <Container className="my-5" id="projects">
+        <Container className="section-container" id="projects">
           <h2 className="section-header">My Work</h2>
           <ProjectCards
             detailView={false}

@@ -15,15 +15,20 @@
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 93%);
 }
 
+.section-container {
+  padding: 100px 0;
+}
+
 .post-heading {
-  padding: 200px 0;
+  padding: 100px 0 200px 0;
   color: white;
 }
 
-.post-heading h1:last-of-type {
-  font-size: 70px;
-  color: var(--primaryColor);
-}
+  .post-heading h1:last-of-type {
+    font-size: 70px;
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+  }
 
 .post-heading div {
   font-size: 35px;
@@ -31,6 +36,7 @@
 
 .subheading:last-of-type {
   margin-bottom: 30px;
+  color: #b2b2b2;
 }
 
 .hero-button {
