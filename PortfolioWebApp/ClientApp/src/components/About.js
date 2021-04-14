@@ -11,14 +11,13 @@ const About = (props) => {
         </div>
         <div className="about-detail-col">
           <h2 className="section-header">About Me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
+          <p>
+            I am a chemistry graduate from York University, but went on to pursue computer programming by starting on game development. 
+            Programming quickly became my passion and I was spending countless hours self-learning and working on my personal projects daily. 
+            After several months, I decided to expand my programming portfolio and learn web developement, both front and back. Now, several 
+            months later, I continue to learn new concepts and improve my programming fundamentals daily and look forward to joining a team 
+            fueled by the same passion and ambitious as I have.
+          </p>
         </div>
       </div>
     </>

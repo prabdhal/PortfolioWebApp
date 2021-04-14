@@ -7,8 +7,6 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import TowerDefenceGame from './components/TowerDefenceGame';
 
-import './custom.css'
-
 export default class App extends Component {
   static displayName = App.name;
 

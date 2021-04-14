@@ -46,7 +46,7 @@ h2.section-header {
   width: 40%;
   align-items: center;
   background-color: var(--primaryColor);
-  clip-path: ellipse(35% 41% at 50% 46%);
+  clip-path: ellipse(32% 32% at 48% 41%);
 }
 
   .about-img-col img {

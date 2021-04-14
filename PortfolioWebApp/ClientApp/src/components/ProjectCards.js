@@ -36,7 +36,7 @@ const ProjectCards = (props) => {
           src={"./images/destxplor-website.PNG"}
           alt={"DestXplor project image"}
           title={"DestXplor"}
-          details={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."}
+          details={"A traveling website which makes use of the Triposo API, to display to users small descriptions of various countries."}
           featureOne={"Created a web API controller for contact model to be able to post, read and delete messages."}
           featureTwo={"Integrated Triposo API to display information articles of cities all over the world."}
           featureThree={"Used react, react router and other 3rd party libraries on the frontend for clean component based programming."}
