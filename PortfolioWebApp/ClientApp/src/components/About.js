@@ -14,9 +14,9 @@ const About = (props) => {
           <p>
             I am a chemistry graduate from York University, but went on to pursue computer programming by starting on game development. 
             Programming quickly became my passion and I was spending countless hours self-learning and working on my personal projects daily. 
-            After several months, I decided to expand my programming portfolio and learn web developement, both front and back. Now, several 
-            months later, I continue to learn new concepts and improve my programming fundamentals daily and look forward to joining a team 
-            fueled by the same passion and ambitious as I have.
+            After getting very comfortable with programming, I decided to expand my programming portfolio and learn web developement. 
+            Now, several months later, I continue to learn new concepts and improve my programming fundamentals daily and look forward 
+            to joining a team fueled by the same passion and ambitious as I have.
           </p>
         </div>
       </div>
